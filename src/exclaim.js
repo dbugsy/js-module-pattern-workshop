@@ -1,9 +1,10 @@
 "use strict";
-
-(function(exports) {
-  function exclaim(string) {
+(function(exports){
+  console.log(exports)
+  function exclaim(string){
     return string + "!";
-  };
+  }
 
   exports.exclaim = exclaim;
-})(this);
+})(this)
+
